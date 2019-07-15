@@ -1,0 +1,76 @@
+(ExpressProject "my_libs"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\my_libs.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\user\Desktop\vscode_orcad\workspace\my_libs\my_libs.dsn")
+      (Path "Design Resources"
+         "C:\Users\user\Desktop\vscode_orcad\workspace\my_libs\my_libs.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Select "Design Resources" "Library" ".\library1.olb"
+         "XILINX VIRTEX PIN MAP"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 315"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1083 175 528")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\WORKSPACE\MY_LIBS\MY_LIBS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 937 25 382")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "625 179")
+        (Zoom "252"))
+      (Path "C:\Users\user\Desktop\vscode_orcad\workspace\my_libs\LIBRARY1.OLB")
+      (Package "our_libs"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 962 50 407")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "508 182")
+        (Zoom "180"))
+      (Path "C:\Users\user\Desktop\vscode_orcad\workspace\my_libs\LIBRARY1.OLB")
+      (Package "my_ic2line"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1087 175 532")
+        (PackageScroll "0 390")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "176 78")
+        (Zoom "141"))
+      (Path "C:\Users\user\Desktop\vscode_orcad\workspace\my_libs\LIBRARY1.OLB")
+      (Package "atmega128"))))
